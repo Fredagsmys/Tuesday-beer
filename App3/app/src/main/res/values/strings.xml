@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">App 3</string>
+    <string-array name="Tricks">
+        <item>Kong</item>
+        <item>Speed</item>
+        <item>Backflip</item>
+        <item>Monkey</item>
+    </string-array>
+
+    <string-array name="levels">
+        <item>2</item>
+        <item>1</item>
+        <item>4</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="description">
+        <item>Kong Vault</item>
+        <item>Speed Vault</item>
+        <item>A Flip Backwards</item>
+        <item>Monkey Vault</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/colorSolidButtonRipple">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/buttonRadius" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/background">
+
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/buttonRadius" />
+            <solid android:color="@color/colorSolidButtonBackground"/>
+
+
+            <stroke android:width="1dp" android:color="@color/colorSolidButtonBorder" />
+        </shape>
+    </item>
+</ripple>

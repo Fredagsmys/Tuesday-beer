@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Betygsätt Alkoholen</string>
+    <string name="mina_drinkar">Mina Drinkar</string>
+    <string name="login">Login</string>
+    <string name="create_account">Skapa konto</string>
+    <string name="password">Password</string>
+    <string name="username">Användarnamn</string>
+    <string name="promille">promille</string>
+    <string name="name">Namn</string>
+    <string name="rating">Betyg</string>
+    <string name="friends">Vänner</string>
+</resources>

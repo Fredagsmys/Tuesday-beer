@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="startButton" format="reference"></attr>
+    <attr name="stopButton" format="reference"></attr>
+    <attr name="varvButton" format="reference"></attr>
+    <attr name="resetButton" format="reference"></attr>
+    <attr name="resumeButton" format="reference"></attr>
+
+</resources>

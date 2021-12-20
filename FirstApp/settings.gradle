@@ -1,0 +1,3 @@
+include ':mySecondApp'
+include ':app'
+rootProject.name = "First App"

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DogEvents</string>
+    <string name="skapa_konto">Skapa Konto</string>
+    <string name="login">Login</string>
+    <string name="kiss">Kiss</string>
+    <string name="skit">Skit</string>
+</resources>

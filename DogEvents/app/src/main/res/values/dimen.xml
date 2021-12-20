@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textPadding">40dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="buttonHeight">60dp</dimen>
+    <dimen name="textWidth">150dp</dimen>
+    <dimen name="textPaddingSmall">10dp</dimen>
+    <dimen name="buttonRadius">1dp</dimen>
+    <dimen name="exercise_ts">22sp</dimen>
+    <dimen name="mainButtonHeight">160dp</dimen>
+    <dimen name="mainButtonWidth">80dp</dimen>
+    <dimen name="bigButtonLayoutMargin">2dp</dimen>
+    <dimen name="shadowDimen">15</dimen>
+    <dimen name="shadowRad">8</dimen>
+    <dimen name="header_ts">24sp</dimen>
+    <dimen name="shadowRadS">10</dimen>
+    <dimen name="shadowDimenS">10</dimen>
+    <dimen name="shadowRadXS">2</dimen>
+    <dimen name="shadowDimenXXS">2</dimen>
+    <dimen name="shadowDimenYXS">2</dimen>
+
+
+
+
+
+
+</resources>

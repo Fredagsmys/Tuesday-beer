@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainColor">#142135</color>
+    <color name="secondColor">#730202</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#852121</color>
+    <color name="green">#265016</color>
+    <color name="darkred">#501E1E</color>
+    <color name="gray">#1C1B1B</color>
+
+    <color name="colorSolidButtonBackground">@color/mainColor</color>
+    <color name="colorSolidButtonBorder">@color/secondColor</color>
+    <color name="colorSolidButtonRipple">#000000</color>
+
+    <color name="colorSolidLayoutBackground">@color/mainColor</color>
+    <color name="colorSolidLayoutBorder">@color/secondColor</color>
+
+    <color name="colorToggledSolidLayoutBackground">#202020</color>
+
+
+    <color name="darkgreen">#19390E</color>
+    <color name="darktrans">#80000000</color>
+    <color name="darkYellow">#80836F00</color>
+
+
+    <color name="whiteText">#FFFFFFFF</color>
+    <color name="whiteTextTrans">#80FFFFFF</color>
+    <color name="backgroundColor">#FF000000</color>
+</resources>

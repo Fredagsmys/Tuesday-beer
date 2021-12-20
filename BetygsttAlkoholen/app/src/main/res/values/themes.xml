@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BetygsättAlkoholen" parent="Theme.AppCompat.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mainColor</item>
+        <item name="colorPrimaryVariant">@color/secondColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/mainColor</item>
+        <item name="android:buttonStyle">@style/btnStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="btnStyle" parent="Widget.AppCompat.Button">
+
+        <item name="android:background">@drawable/button_drawable</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:elevation">@dimen/buttonElevation</item>
+
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:ems">10</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="hintTextColor">@color/whiteText</item>
+    </style>
+
+    <style name="TextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:ems">10</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="hintTextColor">@color/whiteText</item>
+    </style>
+
+    <style name="AppTheme.Picker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="colorControlNormal">@android:color/transparent</item>
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+
+
+</resources>

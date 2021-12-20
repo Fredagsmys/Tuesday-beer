@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/mainColor"
+                android:hint="@string/username"
+                android:labelFor="@id/loginUsername"
+                android:paddingHorizontal="10dp"
+                android:textColorHint="@color/whiteTextTrans">
+
+                <EditText
+                    android:id="@+id/loginUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:textColor="@color/whiteText" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/mainColor"
+                android:hint="@string/password"
+                android:labelFor="@id/loginPassword"
+                android:paddingHorizontal="10dp"
+                android:textColorHint="@color/whiteTextTrans">
+
+                <EditText
+                    android:id="@+id/loginPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_drawable"
+                android:inputType="text"
+                android:paddingHorizontal="10dp"
+                android:text="@string/login"
+                tools:ignore="TextViewEdits">
+
+            </Button>
+
+            <Button
+                android:id="@+id/createAccountButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:inputType="text"
+                android:paddingHorizontal="10dp"
+                android:text="@string/create_account"
+                tools:ignore="TextViewEdits">
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

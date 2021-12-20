@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DogEvents" parent="Theme.AppCompat.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mainColor</item>
+        <item name="colorPrimaryVariant">@color/secondColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="buttonStyle">@style/myButtonStyle</item>
+        <item name="fontStyle">@style/fontStyle</item>
+    </style>
+
+    <style name="myButtonStyle" parent="Widget.AppCompat.Button">
+
+        <item name="android:background">@drawable/button_drawable</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:fontFamily">@font/aldrich</item>
+
+    </style>
+
+    <style name="fontStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/aldrich</item>
+        <item name="fontFamily">@font/aldrich</item> <!-- target android sdk versions < 26 and > 14 if theme other than AppCompat -->
+    </style>
+
+
+</resources>

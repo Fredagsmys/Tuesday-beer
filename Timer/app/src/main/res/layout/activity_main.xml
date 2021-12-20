@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/TextScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/gray"
+        android:fadingEdgeLength="100dp"
+        android:requiresFadingEdge="vertical">
+
+        <LinearLayout
+            android:id="@+id/textLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:layoutDirection="ltr"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/timeTextView_height"
+        android:layout_marginBottom="80dp"
+        android:text="@string/_00_00_000"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="65sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/stoppedLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/resetButton"
+                style="?attr/resetButton"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="32dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/reset"
+                android:textAllCaps="false"
+                android:textSize="@dimen/button_text_size"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/resumeButton"
+                style="?attr/resumeButton"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="32dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/resume"
+                android:textAllCaps="false"
+                android:textSize="@dimen/button_text_size"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/varvButton"
+                style="?attr/stopButton"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="32dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/varv"
+                android:textAllCaps="false"
+                android:textSize="@dimen/button_text_size"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/stopButton"
+                style="?attr/startButton"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="32dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/stop"
+                android:textAllCaps="false"
+                android:textSize="@dimen/button_text_size"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/inactiveLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/startButton"
+                style="?attr/startButton"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="32dp"
+                android:fontFamily="@font/quicksand"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/start"
+                android:textAllCaps="false"
+                android:textSize="@dimen/button_text_size"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

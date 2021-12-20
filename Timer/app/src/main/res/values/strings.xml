@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="textview">TextView</string>
+    <string name="time">Time</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="varv">Varv</string>
+    <string name="resume">Resume</string>
+    <string name="_00_00_000">00:00.000</string>
+</resources>

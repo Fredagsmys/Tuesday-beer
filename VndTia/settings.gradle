@@ -1,0 +1,2 @@
+rootProject.name = "VändTia"
+include ':app'

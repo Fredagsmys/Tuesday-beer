@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="purple_200">#FFBB86FC</color>-->
+<!--    <color name="purple_500">#FF6200EE</color>-->
+<!--    <color name="purple_700">#FF3700B3</color>-->
+<!--    <color name="teal_200">#FF03DAC5</color>-->
+<!--    <color name="teal_700">#FF018786</color>-->
+
+
+    <!--adobeColors-->
+    <color name="mainColor">#21094e</color>
+    <color name="secondColor">#511281</color>
+    <color name="thirdColor">#4ca1a3</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#852121</color>
+    <color name="green">#265016</color>
+    <color name="darkred">#501E1E</color>
+    <color name="gray">#1C1B1B</color>
+
+    <color name="colorSolidButtonBackground">#ABA9BF</color>
+    <color name="colorSolidButtonBorder">#34113F</color>
+    <color name="colorSolidButtonRipple">#D4F2D2</color>
+
+    <color name="colorSolidLayoutBackground">#090909</color>
+    <color name="colorSolidLayoutBorder">#BFA145</color>
+
+    <color name="colorToggledSolidLayoutBackground">#202020</color>
+
+
+    <color name="darkgreen">#19390E</color>
+    <color name="darktrans">#80000000</color>
+    <color name="darkYellow">#80836F00</color>
+    <color name="peeColor">#80FFDD1E</color>
+    <color name="poopColor">#80512804</color>
+
+
+    <color name="whiteText">#FFFFFFFF</color>
+    <color name="whiteTextTrans">#80FFFFFF</color>
+    <color name="backgroundColor">#FF000000</color>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Parkour Achievements</string>
+    <string name="speed">Speed</string>
+    <string name="kong">Kong</string>
+    <string name="backflip">Backflip</string>
+    <string name="toggle_all">Toggle all</string>
+</resources>

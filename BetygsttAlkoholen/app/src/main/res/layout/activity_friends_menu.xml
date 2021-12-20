@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriendsMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rootlayout"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/atomic_age"
+            android:gravity="center"
+            android:text="@string/friends"
+            android:textSize="@dimen/header_ts"
+            android:textStyle="bold" />
+
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+
+                android:id="@+id/friendsListLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_background_shape"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addFriendsFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/friends_icon"
+        android:tint="@color/white"
+        app:backgroundTint="@color/mainColor"
+        app:layout_constraintBottom_toBottomOf="@+id/rootlayout"
+        app:layout_constraintEnd_toEndOf="@+id/rootlayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
